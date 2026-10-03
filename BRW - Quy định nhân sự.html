@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quy Định Nhân Sự - Brw.Coffee</title>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.6;color:#1a1a1a;background:linear-gradient(135deg,#f8f9fa 0%,#f0f2f5 100%);min-height:100vh;padding:20px}.container{max-width:1400px;margin:0 auto;background-color:white;box-shadow:0 4px 16px rgba(0,0,0,.1);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;min-height:100vh}header{background:linear-gradient(135deg,#1a1a1a 0%,#2d2d2d 100%);color:white;padding:30px 40px;display:flex;align-items:center;gap:30px;grid-column:1/-1}.header-logo{font-size:2.8em;font-weight:900;letter-spacing:-1px;line-height:1;color:white;flex-shrink:0;font-family:'Inter',sans-serif}.header-content{flex:1}header h1{font-size:2.2em;margin:0 0 4px 0;font-weight:700;letter-spacing:-.5px}header p{font-size:.95em;opacity:.9;font-weight:400;margin:0}.wrapper{display:flex;width:100%;flex:1;min-height:0}.sidebar{width:220px;background-color:#f9fafb;border-right:1px solid #e5e7eb;padding:20px 0;display:flex;flex-direction:column}.tab-button{display:block;padding:14px 20px;border:none;background:none;cursor:pointer;font-family:'Inter',sans-serif;font-size:.9em;font-weight:500;color:#6b7280;text-align:left;transition:all .3s ease;border-left:3px solid transparent;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;user-select:none}.tab-button:hover{background-color:#f3f4f6;color:#1a1a1a}.tab-button.active{background-color:#dbeafe;color:#1a1a1a;border-left-color:#0ea5e9;font-weight:600}.content-area{flex:1;display:flex;flex-direction:column;overflow-y:auto}.tab-content{display:none;padding:40px;animation:fadeIn .3s ease}.tab-content.active{display:block}input[type="radio"][name="tabs"]{display:none}.tab-content{display:none!important}#tab1-input:checked~.content-area #tab1,#tab2-input:checked~.content-area #tab2,#tab3-input:checked~.content-area #tab3,#tab4-input:checked~.content-area #tab4,#tab5-input:checked~.content-area #tab5{display:block!important}#tab1-input:checked~.sidebar label[for="tab1-input"],#tab2-input:checked~.sidebar label[for="tab2-input"],#tab3-input:checked~.sidebar label[for="tab3-input"],#tab4-input:checked~.sidebar label[for="tab4-input"],#tab5-input:checked~.sidebar label[for="tab5-input"]{background-color:#dbeafe;color:#1a1a1a;border-left-color:#0ea5e9;font-weight:600}@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}.section-title{font-size:1.4em;font-weight:700;color:#1a1a1a;margin-bottom:24px;padding-bottom:12px;border-bottom:2px solid #f0f0f0}.subsection{margin-bottom:24px;background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:8px;padding:20px}.subsection-title{font-weight:600;color:#1a1a1a;margin-bottom:14px;font-size:1.05em;padding-bottom:10px;border-bottom:2px solid #e5e7eb}ul,ol{margin-left:20px;margin-bottom:16px}li{margin-bottom:8px;line-height:1.7}.highlight{background-color:#f0f9ff;border-left:3px solid #0ea5e9;padding:16px;margin:20px 0;border-radius:6px}.highlight strong{color:#1a1a1a}.warning{background-color:#fef2f2;border-left:3px solid #ef4444;padding:16px;margin:20px 0;border-radius:6px;color:#7f1d1d}.success{background-color:#f0fdf4;border-left:3px solid #22c55e;padding:16px;margin:20px 0;border-radius:6px;color:#15803d}.note{background-color:#fffbeb;border-left:3px solid #f59e0b;padding:16px;margin:20px 0;border-radius:6px;color:#92400e;font-size:.95em}table{width:100%;border-collapse:collapse;margin:20px 0;font-size:.95em}th,td{padding:12px;text-align:left;border-bottom:1px solid #e5e7eb}th{background-color:#f9fafb;font-weight:600;color:#1a1a1a}tr:hover{background-color:#fafafa}.price{font-weight:700;color:#059669;font-size:1.1em}.negative{color:#dc2626;font-weight:600}.btn{display:inline-block;padding:10px 16px;background-color:#1a1a1a;color:white;text-decoration:none;border-radius:6px;font-weight:500;font-size:.9em;transition:all .3s ease;border:none;cursor:pointer;margin:6px 6px 6px 0}.btn:hover{background-color:#333;transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,.15)}.btn-primary{background-color:#0ea5e9}.btn-primary:hover{background-color:#0284c7}.btn-success{background-color:#22c55e}.btn-success:hover{background-color:#16a34a}.btn-group{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}.card{background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:8px;padding:20px;margin-bottom:16px;transition:all .3s ease}.card:hover{box-shadow:0 4px 12px rgba(0,0,0,.08);transform:translateY(-2px)}.card-header{font-weight:600;color:#1a1a1a;margin-bottom:8px;font-size:.95em}.card-content{color:#6b7280;font-size:.9em;line-height:1.6}.badge{display:inline-block;background-color:#dbeafe;color:#0c4a6e;padding:4px 8px;border-radius:4px;font-size:.8em;font-weight:500;margin-right:6px}.badge-success{background-color:#dcfce7;color:#166534}.badge-warning{background-color:#fef3c7;color:#92400e}.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:20px 0}.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:20px 0}.grid-item{background-color:#f9fafb;padding:16px;border-radius:6px;border:1px solid #e5e7eb}.grid-item strong{display:block;margin-bottom:6px}footer{background-color:#f9fafb;padding:30px 40px;text-align:center;color:#6b7280;font-size:.9em;border-top:1px solid #e5e7eb;grid-column:1/-1}footer p{margin-bottom:8px}.social-links{margin-top:16px}.social-links a{display:inline-block;margin:0 8px;color:#0ea5e9;text-decoration:none;font-weight:500}.social-links a:hover{text-decoration:underline}.print-date{color:#9ca3af;font-size:.85em;margin-bottom:20px}strong{font-weight:600;color:#1a1a1a}a{color:#0ea5e9;text-decoration:none;font-weight:500}a:hover{text-decoration:underline}@media (max-width:1024px){.sidebar{width:160px}.tab-button{padding:12px 14px;font-size:.75em}.tab-content{padding:30px 24px}header{padding:20px 24px;gap:20px}.header-logo{font-size:2.2em}header h1{font-size:1.8em}}@media (max-width:768px){body{padding:12px}.container{flex-direction:column;border-radius:8px}.wrapper{flex-direction:column}.sidebar{width:100%;border-right:none;border-bottom:1px solid #e5e7eb;padding:0;display:flex;flex-direction:row;overflow-x:auto;overflow-y:hidden;height:auto;flex-shrink:0}.tab-button{padding:14px 12px;font-size:.75em;flex:0 0 auto;border-left:none;border-bottom:3px solid transparent;white-space:nowrap;overflow:visible;text-overflow:clip;text-align:center;min-width:fit-content;padding:14px 10px;background-color:transparent!important;color:#6b7280;font-weight:500}.tab-button:hover{background-color:#f3f4f6;border-bottom-color:#0ea5e9}.tab-button.active{background-color:transparent;border-left-color:transparent;border-bottom-color:#0ea5e9;color:#1a1a1a;font-weight:600}#tab1-input:checked~.sidebar label[for="tab1-input"],#tab2-input:checked~.sidebar label[for="tab2-input"],#tab3-input:checked~.sidebar label[for="tab3-input"],#tab4-input:checked~.sidebar label[for="tab4-input"],#tab5-input:checked~.sidebar label[for="tab5-input"]{background-color:transparent;border-bottom-color:#0ea5e9;color:#1a1a1a;font-weight:600}.tab-content{padding:16px 14px}.content-area{min-width:0}header{padding:16px 12px;flex-direction:column;align-items:flex-start;gap:8px}.header-logo{font-size:1.5em}.header-content{width:100%}header h1{font-size:1.1em;margin-bottom:2px}header p{font-size:.75em}.grid-2,.grid-3{grid-template-columns:1fr;gap:12px}.section-title{font-size:1.05em;margin-bottom:16px}.subsection-title{font-size:.95em;margin-bottom:10px}.btn-group{flex-direction:column}.btn{width:100%;text-align:center;padding:10px 12px;font-size:.8em;margin:6px 0}.card{padding:14px;margin-bottom:12px}.card-header{font-size:.85em;margin-bottom:6px}.card-content{font-size:.8em}table{font-size:.8em;margin:16px 0}th,td{padding:8px 6px}.highlight,.warning,.success,.note{padding:12px;margin:16px 0;font-size:.85em}ul,ol{margin-left:16px;margin-bottom:12px}li{margin-bottom:6px;line-height:1.5}footer{padding:14px 12px;font-size:.7em}footer p{margin-bottom:6px}.print-date{font-size:.75em;margin-bottom:12px}}@media (max-width:480px){body{padding:8px}.tab-button{padding:12px 8px;font-size:.65em}.tab-content{padding:12px 10px}header{padding:12px 8px}.header-logo{font-size:1.2em}header h1{font-size:.9em}header p{font-size:.65em}.section-title{font-size:.95em}.subsection-title{font-size:.85em}.btn{padding:8px 10px;font-size:.7em}table{font-size:.7em}th,td{padding:6px 4px}.grid-item strong{font-size:.8em}}</style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-logo">BR-W</div>
+            <div class="header-content">
+                <h1>📋 QUY ĐỊNH NHÂN SỰ</h1>
+                <p>Brw.Coffee — Hướng dẫn chi tiết cho nhân sự mới và đội ngũ hiện tại</p>
+            </div>
+        </header>
+
+        <div class="wrapper">
+            <!-- Hidden radio buttons for CSS-only tab switching -->
+            <input type="radio" name="tabs" id="tab1-input" checked>
+            <input type="radio" name="tabs" id="tab2-input">
+            <input type="radio" name="tabs" id="tab3-input">
+            <input type="radio" name="tabs" id="tab4-input">
+            <input type="radio" name="tabs" id="tab5-input">
+
+            <div class="sidebar">
+                <label for="tab1-input" class="tab-button active">📅 Lịch Làm Việc</label>
+                <label for="tab2-input" class="tab-button">👕 Quy Định Trang Phục</label>
+                <label for="tab3-input" class="tab-button">💰 Lương & Thưởng</label>
+                <label for="tab4-input" class="tab-button">⚡ Lưu Ý Quan Trọng</label>
+                <label for="tab5-input" class="tab-button">📞 Liên Hệ & Địa Chỉ</label>
+            </div>
+
+            <div class="content-area">
+                <!-- TAB 1: LỊCH LÀM VIỆC -->
+                <div id="tab1" class="tab-content">
+                    <div class="print-date">Cập nhật: Tháng 9/2026</div>
+
+                    <h2 class="section-title">📅 Lịch Làm Việc</h2>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Thời Gian Ca Làm Việc</div>
+
+                        <p style="margin-bottom: 16px;"><strong>Part-time:</strong> Brw.Coffee áp dụng 3 ca làm việc như sau:</p>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th style="width: 25%;">Ca</th>
+                                    <th style="width: 35%;">Thời Gian</th>
+                                    <th style="width: 20%;">Giờ</th>
+                                    <th style="width: 20%;">Ghi Chú</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Ca Sáng</strong></td>
+                                    <td>7:00 - 12:00</td>
+                                    <td>5 giờ</td>
+                                    <td>Riêng T7, CN bắt đầu từ 8h</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Ca Chiều</strong></td>
+                                    <td>12:00 - 17:00</td>
+                                    <td>5 giờ</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Ca Tối</strong></td>
+                                    <td>17:00 - 22:00</td>
+                                    <td>5 giờ</td>
+                                    <td>Đóng máy pha cà phê sau 20:00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p style="margin-top: 24px; margin-bottom: 16px;"><strong>Full-time:</strong> Brw.Coffee áp dụng 2 ca làm việc như sau:</p>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th style="width: 25%;">Ca</th>
+                                    <th style="width: 35%;">Thời Gian</th>
+                                    <th style="width: 20%;">Giờ</th>
+                                    <th style="width: 20%;">Ghi Chú</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Ca Sáng</strong></td>
+                                    <td>7:00 - 15:00</td>
+                                    <td>8 giờ</td>
+                                    <td>Riêng T7, CN bắt đầu từ 8h</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Ca Tối</strong></td>
+                                    <td>15:00 - 22:00</td>
+                                    <td>7 giờ</td>
+                                    <td>Đóng máy pha cà phê sau 20:00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Quy Định Số Ca Tối Thiểu</div>
+                        <div class="highlight">
+                            <strong>📌 Yêu cầu:</strong> Mỗi bạn phải làm tối thiểu <strong>4 ca/tuần</strong> (tương đương ≈ 20 giờ/tuần)
+                        </div>
+                        <ul>
+                            <li><span class="badge badge-success">✅</span> <strong>Làm đủ 4 ca/tuần:</strong> Bình thường</li>
+                            <li><span class="badge badge-warning">⚠️</span> <strong>Không đăng ký đủ 4 ca:</strong> Phải báo trước muộn nhất <strong>thứ 6</strong></li>
+                            <li><span class="badge">❌</span> <strong>Không báo + không đăng ký đủ:</strong> Ghi báo cáo lỗi, cuối tháng tính phạt trừ vào lương và đăng ký bù cho đủ tối thiểu ca</li>
+                            <li><span class="badge">❌</span> <strong>Bỏ ca:</strong> Trừ tiền theo quy định</li>
+                        </ul>
+                    </div>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Đăng Ký Ca Làm Việc</div>
+                        <div class="highlight">
+                            <strong>⏰ Khung thời gian đăng ký:</strong> <strong>0:00 (Thứ 6)</strong> → <strong>12:00 (Thứ 7)</strong> hàng tuần
+                        </div>
+                        <ul style="margin-bottom: 16px;">
+                            <li>Đăng ký trên <strong>App HRM</strong> trong khung giờ quy định</li>
+                            <li><strong>Nếu xin nghỉ hoặc làm ít hơn 4 ca:</strong> Phải điền <strong>Form</strong> trong ngày <strong>Thứ 6</strong>
+                                <div style="margin-top: 12px;">
+                                    <div class="btn-group">
+                                        <a href="https://forms.gle/AwKgRAdvXZ58Z18z6" target="_blank" class="btn btn-primary">📝 Form Xin Nghỉ</a>
+                                        <a href="https://docs.google.com/spreadsheets/d/14Wh4Yi4wT4tdE1rEjEeN5q-1OFqDSlDiA5b9ykzJMbo/edit?usp=sharing" target="_blank" class="btn">📊 Xem Danh Sách Đã Đăng Ký</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><strong>⚠️ Lưu ý:</strong> Chỉ <strong>2 bạn đăng ký sớm nhất</strong> sẽ được duyệt (đảm bảo nhân sự vận hành)</li>
+                        </ul>
+                        <div class="note">
+                            <strong>💡 Mẹo:</strong> Điền Form sớm nhất vào sáng Thứ 6 để tăng cơ hội được duyệt nếu xin nghỉ.
+                        </div>
+                    </div>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Xếp Ca & Trả Lịch</div>
+                        <div class="success">
+                            <strong>📅 Quy trình:</strong> Sau khi hết khung giờ đăng ký (12:00 Thứ 7), <strong>Nhân sự Tuyển dụng</strong> sẽ xếp ca và <strong>trả lịch làm trước 12:00 Chủ nhật</strong> hàng tuần.
+                        </div>
+                    </div>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Đổi Ca Làm Việc</div>
+                        <p style="margin-bottom: 12px;"><strong>Bạn có 2 cách để đổi ca:</strong></p>
+                        <ol style="margin-left: 30px; margin-bottom: 16px;">
+                            <li style="margin-bottom: 12px;">
+                                <strong>Tự tìm người đổi:</strong>
+                                <ul style="margin-top: 8px;">
+                                    <li>Xin nghỉ ca trên App</li>
+                                    <li>Tìm bạn khác và yêu cầu đổi ca trên app, Nhân sự Tuyển dụng/Chị Châu xem xét duyệt đổi</li>
+                                    <li>Yêu cầu chấm ca bổ sung kèm <strong>hình ảnh chứng minh</strong></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Nhờ Nhân sự Tuyển dụng đổi:</strong> Liên hệ để đổi trực tiếp trên lịch làm việc
+                            </li>
+                        </ol>
+                        <div class="warning">
+                            <strong>⚠️ Lưu ý quan trọng:</strong>
+                            <ul style="margin-top: 8px;">
+                                <li>Khi đổi ca, lưu ý đổi với nhân sự cùng vị trí (ví dụ: ser ↔ ser, bar ↔ bar)</li>
+                                <li><strong>Hạn chế đổi ca</strong> để đảm bảo công bằng về số lượng ca tối thiểu mỗi bạn/tuần. Các vị trí đã được sắp xếp tối ưu và phù hợp với vận hành quán</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 2: QUY ĐỊNH TRANG PHỤC -->
+                <div id="tab2" class="tab-content">
+                    <h2 class="section-title">👕 Quy Định Trang Phục & Hành Vi</h2>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Trang Phục Làm Việc</div>
+                        <p style="margin-bottom: 16px;">Trang phục sạch sẽ, chuyên nghiệp là tôn trọng khách hàng và đơn vị:</p>
+                        <div class="grid-2">
+                            <div class="grid-item">
+                                <strong>👖 Quần</strong>
+                                <p>Quần dài tối màu, không rách</p>
+                            </div>
+                            <div class="grid-item">
+                                <strong>👕 Áo</strong>
+                                <p>Áo phông (nên màu tối để tránh rơi cà phê)</p>
+                            </div>
+                            <div class="grid-item">
+                                <strong>👟 Giày</strong>
+                                <p>Giày dày kín mũi, không dép lẹt quẹt</p>
+                            </div>
+                            <div class="grid-item">
+                                <strong>💇 Tóc</strong>
+                                <p><strong>Nữ:</strong> Kẹp, buộc, búi gọn<br><strong>Nam:</strong> Cắt ngắn, gọn gàng</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Vệ Sinh Cá Nhân</div>
+                        <ul>
+                            <li><strong>Móng tay:</strong> Sạch sẽ, cắt ngắn</li>
+                            <li><strong>Nail (nếu làm):</strong> Phải làm ngắn, sơn màu nude</li>
+                        </ul>
+                        <div class="success">
+                            <strong>✨ Lưu ý:</strong> Vệ sinh cá nhân và trang phục chuyên nghiệp là yêu cầu cơ bản, phản ánh sự tôn trọng bản thân và đồng nghiệp.
+                        </div>
+                    </div>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Hành Vi Cơ Bản Trong Ca Làm Việc</div>
+                        <ul>
+                            <li><strong>Trách nhiệm cá nhân:</strong> Tự quản lý ca làm của bạn để không ảnh hưởng đến người khác</li>
+                            <li><strong>Phối hợp với Teamlead:</strong> Báo khi có thay đổi (đến muộn, về sớm, nghỉ đột xuất)</li>
+                            <li><strong>Hỗ trợ đồng nghiệp:</strong> Tự chủ động giúp đỡ và phối hợp vận hành hiệu quả</li>
+                        </ul>
+                        <div class="highlight">
+                            <strong>🎯 Kỳ vọng:</strong> Brw kỳ vọng các bạn rèn luyện tinh thần <strong>chuyên nghiệp, kỷ luật, trách nhiệm</strong> và <strong>hợp tác</strong> từ những việc nhỏ nhất.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 3: LƯƠNG & THƯỞNG -->
+                <div id="tab3" class="tab-content">
+                    <h2 class="section-title">💰 Lương & Chính Sách Thưởng</h2>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Bảng Lương Giờ</div>
+                        <p style="margin-bottom: 12px;"><strong>Áp dụng từ 1/4/2026:</strong></p>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Vị Trí</th>
+                                    <th>Lương/Giờ</th>
+                                    <th>Tiêu Chí</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Service Mới</strong></td>
+                                    <td class="price">22.000đ</td>
+                                    <td>Nhân sự mới / Thử việc</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Barista Cơ Bản</strong></td>
+                                    <td class="price">24.000đ</td>
+                                    <td>Đảm bảo service cứng</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Barista Cứng</strong></td>
+                                    <td class="price">26.000đ</td>
+                                    <td>Tay nghề vững vàng</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Teamlead</strong></td>
+                                    <td class="price">28.000đ</td>
+                                    <td>Giám sát & hỗ trợ ca</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="note">
+                            <strong>📌 Lưu ý:</strong> Sau thời gian thử việc, nếu nhân sự được offer từ vị trí Barista cơ bản nhưng không đạt yêu cầu khi kiểm tra, Brw sẽ review lại lương và vị trí.
+                        </div>
+                    </div>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Thưởng Gắn Bó</div>
+                        <p style="margin-bottom: 12px;">Khi đạt mốc thời gian gắn bó, lương sẽ tự động tăng:</p>
+                        <ul>
+                            <li><strong>Sau 10 tháng:</strong> +1.000đ vào lương giờ (ví dụ: 24k → 25k)</li>
+                            <li><strong>Sau 18 tháng:</strong> +1.000đ vào lương giờ (ví dụ: 25k → 26k)</li>
+                        </ul>
+                    </div>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Lương Lễ & Tết</div>
+                        <div class="highlight">
+                            <strong>🎉 Hệ số lương:</strong>
+                            <ul style="margin-top: 12px;">
+                                <li><strong>Lễ (30/4, 1/5, v.v.):</strong> Lương <strong>x1.5</strong></li>
+                                <li><strong>Tết Nguyên Đán:</strong> Lương <strong>x2</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Trợ Cấp Ca</div>
+                        <p style="margin-bottom: 12px;"><strong>25.000đ/trợ cấp</strong> (tính khi làm ≥ 7h liên tục)</p>
+                        <div class="grid-2">
+                            <div class="card">
+                                <div class="card-header">📅 Ca Fulltime</div>
+                                <div class="card-content">
+                                    <p><strong>App tự động cộng</strong> trợ cấp</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">📋 Ca Part-time (2+ ca/ngày)</div>
+                                <div class="card-content">
+                                    <p><strong>App không tự cộng</strong>. Cuối tháng có Form trợ cấp — điền và gửi cho Nhân sự Tuyển dụng check và tính vào lương.</p>
+                                    <a href="https://forms.gle/n2L4xC6SZDzwx71v8" target="_blank" class="btn btn-primary" style="display: block; margin-top: 8px; text-align: center;">📝 Form Trợ Cấp</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="note">
+                            <strong>💡 Lưu ý:</strong> Form trợ cấp thường gửi vào ngày mùng 1 hàng tháng.
+                        </div>
+                    </div>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Quy Định Số Nhân Sự Tiêu Chuẩn</div>
+                        <div class="highlight">
+                            <p style="margin-bottom: 12px;"><strong>Quy định số nhân sự tiêu chuẩn trong 1 ca làm việc, áp dụng từ Tháng 8/2026, cho đến khi có thông báo mới.</strong></p>
+                            <ul style="margin: 0; margin-top: 12px;">
+                                <li><strong>1. Cơ sở Hongkong</strong>
+                                    <ul style="margin-top: 6px;">
+                                        <li>Sáng & Chiều (T2 - T6): 3 - 4 nhân sự (tối đa 5 nếu có training NV mới)</li>
+                                    </ul>
+                                </li>
+                                <li style="margin-top: 8px;"><strong>2. Cơ sở Trung Kính</strong>
+                                    <ul style="margin-top: 6px;">
+                                        <li>Sáng (T2 – T6): 3 nhân sự</li>
+                                        <li>Chiều (T2 – T6): 2 nhân sự (tối đa 3 nếu có 1 nhân sự mới &lt; 1 tháng)</li>
+                                    </ul>
+                                </li>
+                                <li style="margin-top: 8px;"><strong>3. Cả 2 cơ sở</strong>
+                                    <ul style="margin-top: 6px;">
+                                        <li>Sáng & Chiều (T7, CN) + Tối (cả tuần): 2 nhân sự (1 Bar/Teamlead + 1 Ser)</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Cơ Cấu Lương Khi Thiếu Nhân Sự</div>
+                        <p style="margin-bottom: 12px;">Khi ca làm việc thiếu nhân sự so với quy định tiêu chuẩn, nhân sự sẽ được hưởng hệ số lương tăng thêm:</p>
+                        <ul>
+                            <li><strong>Ca ngày (Sáng, Chiều):</strong> Lương <strong>x1.35</strong></li>
+                            <li><strong>Ca tối / Cuối tuần:</strong> Lương <strong>x1.5</strong></li>
+                        </ul>
+                        <div class="success">
+                            <strong>✨ Lưu ý:</strong> Nhân sự sẽ tổng hợp lại gửi cùng Form trợ cấp các ca thiếu nhân sự, Nhân sự Tuyển dụng sẽ check lại và nhân lương bổ sung.
+                        </div>
+                    </div>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Các Khoản Bổ Sung</div>
+                        <div style="background-color: #f0fdf4; padding: 16px; border-radius: 6px; margin-bottom: 16px;">
+                            <ul style="margin: 0;">
+                                <li><strong style="margin-top: 12px; display: block;">Hoàn trả lương:</strong>
+                                    <ul style="margin-top: 8px;">
+                                        <li>Sau 3 tháng gắn bó: Hoàn 20% lương thử việc (40 giờ thử việc)</li>
+                                        <li>Sau 6 tháng gắn bó: Hoàn 15% lương của 2 tháng chính thức</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Các Khoản Trừ & Phạt</div>
+                        <div style="background-color: #fef2f2; padding: 16px; border-radius: 6px; margin-bottom: 16px;">
+                            <ul style="margin: 0;">
+                                <li><span class="negative">Giữ lương thử việc:</span> 20% (tự động trừ)</li>
+                                <li><span class="negative">Giữ lương chính thức:</span> 15% của 2 tháng đầu (trừ thủ công)</li>
+                                <li><span class="negative">Phạt lỗi:</span> Theo báo cáo của Teamlead hàng tháng</li>
+                                <li><span class="negative">Quên checkin/checkout, Bỏ ca, Đi muộn, Về sớm không xin phép:</span> Phạt trừ tiền theo quy định</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Ứng Lương</div>
+                        <p style="margin-bottom: 12px;">Quy trình ứng lương cho trường hợp khẩn cấp:</p>
+                        <ol style="margin-left: 30px; margin-bottom: 16px;">
+                            <li>Tạo phiếu trên App HRM, <strong>ghi rõ lý do</strong> (không viết chung chung)</li>
+                            <li>Chụp màn hình phiếu và gửi qua <strong>Zalo cho chị Châu (0932379199)</strong></li>
+                            <li><strong>⚠️ KHÔNG gửi qua Nhân sự Tuyển dụng</strong> — gửi trực tiếp cho chị Châu</li>
+                        </ol>
+                        <div class="note">
+                            <strong>💡 Lưu ý:</strong> Ứng lương là cho trường hợp khẩn cấp, bất khả kháng.
+                        </div>
+                    </div>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Thời Gian Thanh Toán Lương</div>
+                        <div class="highlight">
+                            <strong>📅 Ngày thanh toán:</strong> <strong>Từ mùng 5 đến mùng 10</strong> hàng tháng
+                        </div>
+                    </div>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Chính Sách Thưởng Giới Thiệu Nhân Sự</div>
+                        <div class="highlight">
+                            <strong>🎁 Nếu bạn giới thiệu bạn bè vào làm tại Brw.Coffee</strong> và người được giới thiệu <strong>gắn bó trên 3 tháng</strong>, bạn sẽ nhận:
+                            <div style="font-size: 1.3em; color: #059669; font-weight: 700; margin-top: 12px; text-align: center;">
+                                500.000đ / người
+                            </div>
+                        </div>
+                        <div class="success">
+                            <strong>✨ Mục đích:</strong> Xây dựng đội ngũ ổn định, gắn bó và ghi nhận công lao giới thiệu nhân sự chất lượng.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 4: LƯU Ý QUAN TRỌNG -->
+                <div id="tab4" class="tab-content">
+                    <h2 class="section-title">⚡ Lưu Ý Quan Trọng Khác</h2>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Quy Định Chấm Công Trên App</div>
+                        <ul>
+                            <li><strong>Checkin/Checkout đầy đủ:</strong> Checkin lúc đến, checkout lúc về — không bỏ sót</li>
+                            <li><strong>Lý do chính đáng khi lỗi:</strong>
+                                <ul style="margin-top: 8px;">
+                                    <li><span class="badge badge-success">✅</span> Wifi lỗi / App lỗi → Báo ngay cho <strong>Nhân sự Tuyển dụng</strong> tại thời điểm đó + chụp minh chứng → Chấm bù bình thường</li>
+                                    <li><span class="badge badge-warning">⚠️</span> Quên checkin / quên checkout → Có thể duyệt nhưng sẽ bị phạt</li>
+                                    <li><span class="badge">❌</span> Không chụp nhiệm vụ ca → Không chính đáng, tự chủ động khắc phục</li>
+                                </ul>
+                            </li>
+                            <li><strong>Checkout muộn ca tối:</strong> Có thể checkout sớm tối đa 15 phút (nếu đã hoàn thành hết công việc)</li>
+                        </ul>
+                        <div class="warning">
+                            <strong>⚠️ Quan trọng:</strong> Checkin/checkout đúng là yêu cầu cơ bản. Sloppy với chấm công sẽ ảnh hưởng đến tính lương và bị phạt.
+                        </div>
+                    </div>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Ra Ngoài Trong Giờ Làm</div>
+                        <ul>
+                            <li><strong>Trường hợp đột xuất bất khả kháng:</strong> Báo với <strong>Nhân sự Tuyển dụng</strong> hoặc <strong>chị Châu</strong> ngay</li>
+                            <li><strong>Chủ động nhờ người hỗ trợ:</strong> Tìm bạn khác để đứng giúp ca của bạn</li>
+                            <li><strong>Báo với Teamlead:</strong> Để họ nắm thông tin vận hành</li>
+                        </ul>
+                        <div class="highlight">
+                            <strong>🎯 Nguyên tắc:</strong> Chủ động liên hệ Teamlead và đồng nghiệp để sắp xếp — không chỉ báo với Nhân sự Tuyển dụng xong để đó.
+                        </div>
+                    </div>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Quy Định Về Máy Pha Cà Phê</div>
+                        <div class="note">
+                            <strong>📌 Lưu ý:</strong> Sau 20:00, <strong>cả 2 cơ sở sẽ đóng máy pha cà phê</strong>. Hãy chủ động sắp xếp và hoàn thành công việc trước giờ này.
+                        </div>
+                    </div>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Quy Định Xin Nghỉ Hẳn</div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Vị Trí</th>
+                                    <th>Thời Gian Báo Trước Tối Thiểu</th>
+                                    <th>Ghi Chú</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Barista</strong></td>
+                                    <td><strong>1.5 - 2 tháng</strong></td>
+                                    <td>Báo trước đủ thời gian để tìm và đào tạo người thay thế</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Service</strong></td>
+                                    <td><strong>1 tháng</strong></td>
+                                    <td>Báo trước tối thiểu 1 tháng</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Teamlead</strong></td>
+                                    <td><strong>3 tháng</strong> + <strong>Đề xuất người lên</strong></td>
+                                    <td>Cần có đề xuất người thay thế từ Barista hoặc có đủ năng lực lên Teamlead</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Lời Nhắc Nhở Từ Giám Sát</div>
+                        <div class="success">
+                            <p style="margin-bottom: 12px;">Brw biết hầu hết các bạn vẫn đang đi học, nhưng <strong>Brw.Coffee là một môi trường làm việc chuyên nghiệp</strong>. Ngoài việc kiếm thêm thu nhập, Brw kỳ vọng các bạn sẽ rèn luyện được:</p>
+                            <ul style="margin-bottom: 12px;">
+                                <li>⭐ <strong>Chuyên nghiệp</strong> — từ những việc nhỏ nhất</li>
+                                <li>⭐ <strong>Kỷ luật</strong> — đúng giờ, đúng quy định</li>
+                                <li>⭐ <strong>Trách nhiệm</strong> — với ca làm và đồng nghiệp</li>
+                                <li>⭐ <strong>Tinh thần hợp tác</strong> — hỗ trợ nhau khi cần</li>
+                            </ul>
+                            <p><strong>📞 Hỗ trợ:</strong> Giám sát luôn sẵn sàng hỗ trợ. Nếu cần gấp, gọi điện trực tiếp thay vì chỉ nhắn tin. Với lý do chính đáng, luôn được xem xét.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 5: LIÊN HỆ & ĐỊA CHỈ -->
+                <div id="tab5" class="tab-content">
+                    <h2 class="section-title">📞 Liên Hệ & Địa Chỉ Cơ Sở</h2>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Đội Ngũ Quản Lý</div>
+                        <div class="grid-2">
+                            <div class="card">
+                                <div class="card-header">👤 Chị Châu</div>
+                                <div class="card-content">
+                                    <p><strong>Co-founder</strong></p>
+                                    <p>📱 0932379199</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">👤 Anh Bảo</div>
+                                <div class="card-content">
+                                    <p><strong>Co-founder</strong></p>
+                                    <p>📱 0979698288</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p style="margin-top: 24px; margin-bottom: 16px;"><strong>Các Giám Sát & Teamlead:</strong></p>
+                        <div class="grid-2">
+                            <div class="card">
+                                <div class="card-header">👤 Hồng Minh</div>
+                                <div class="card-content">
+                                    <p><strong>Nhân Sự Tuyển Dụng</strong></p>
+                                    <p>📱 0896315412</p>
+                                    <p><a href="https://www.facebook.com/pthmin.15/" target="_blank">Facebook</a></p>
+                                    <p style="margin-top: 8px; font-size: 0.85em; color: #6b7280;">Lịch ca, xếp ca, thay đổi ca, hỗ trợ</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">👤 Hạ San</div>
+                                <div class="card-content">
+                                    <p><strong>Giám Sát Trung Kính</strong></p>
+                                    <p>📱 0345056228</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">👤 Nguyễn Mai</div>
+                                <div class="card-content">
+                                    <p><strong>Giám Sát Hongkong</strong></p>
+                                    <p>📱 0357852313</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">👤 Lường Việt Trinh</div>
+                                <div class="card-content">
+                                    <p><strong>Teamlead</strong></p>
+                                    <p>📱 0398148002</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Địa Chỉ Cơ Sở</div>
+                        <div class="grid-2">
+                            <div class="card">
+                                <div class="card-header">🏪 Brw Hongkong</div>
+                                <div class="card-content">
+                                    <p>Cơ sở chính tại Hongkong (Ba Đình)</p>
+                                    <a href="https://maps.app.goo.gl/CATvpC7HF7pZYYz69" target="_blank" class="btn btn-primary">🗺️ Xem Bản Đồ</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">🏪 Brw Trung Kính</div>
+                                <div class="card-content">
+                                    <p>Chi nhánh tại Trung Kính</p>
+                                    <a href="https://maps.app.goo.gl/hvE5BbnkpS2i3zhD6" target="_blank" class="btn btn-primary">🗺️ Xem Bản Đồ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="subsection">
+                        <div class="subsection-title">Ứng Tuyển & Theo Dõi</div>
+                        <div style="display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 16px;">
+                            <a href="https://forms.gle/QfGJF4d7gDnaJcP3A" target="_blank" class="btn btn-success" style="display: flex; align-items: center;">📝 Form Ứng Tuyển</a>
+                        </div>
+
+                        <p style="margin-bottom: 16px;"><strong>Theo dõi Brw trên mạng xã hội:</strong></p>
+                        <div style="display: flex; flex-wrap: wrap; gap: 12px;">
+                            <a href="https://www.facebook.com/brw.coffeevn" target="_blank" class="btn">📘 Facebook</a>
+                            <a href="https://www.instagram.com/brw.coffeevn/" target="_blank" class="btn">📷 Instagram</a>
+                            <a href="https://www.threads.com/@brw.coffeevn?hl=vi" target="_blank" class="btn">💬 Threads</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p><strong>📋 Brw.Coffee — Quy Định Nhân Sự</strong></p>
+            <p>Tài liệu nội bộ | Dành cho nhân sự mới và đội ngũ hiện tại</p>
+            <p style="margin-top: 16px; font-size: 0.85em;">Mọi thắc mắc vui lòng liên hệ:</p>
+            <p><strong>Chị Châu (Co-founder)</strong> • 0932379199 | <strong>Anh Bảo (Co-founder)</strong> • 0979698288 | <strong>Hồng Minh (TD)</strong> • 0896315412</p>
+            <p style="margin-top: 16px; font-size: 0.85em;">© 2026 Brw.Coffee | Cập nhật: Tháng 9/2026</p>
+        </footer>
+    </div>
+
+    <script>document.addEventListener('DOMContentLoaded',function(){const isLocalFile=window.location.protocol==='file:';if(isLocalFile){const links=document.querySelectorAll('a[href^="https://"], a[href^="http://"]');links.forEach(link=>{link.addEventListener('click',function(e){e.preventDefault();const url=this.getAttribute('href');openExternalLink(url)});link.addEventListener('touchstart',function(e){e.preventDefault();const url=this.getAttribute('href');openExternalLink(url)},{passive:false})})}});function openExternalLink(url){const w=window.open(url,'_blank');if(w&&!w.closed)return;copyToClipboard(url);showMessage('Link được copy: '+url)}function copyToClipboard(text){if(navigator.clipboard){navigator.clipboard.writeText(text).catch(()=>{fallbackCopy(text)})}else{fallbackCopy(text)}}function fallbackCopy(text){const ta=document.createElement('textarea');ta.value=text;ta.style.position='fixed';ta.style.left='-999999px';document.body.appendChild(ta);ta.focus();ta.select();try{document.execCommand('copy')}catch(err){}document.body.removeChild(ta)}function showMessage(msg){const m=document.createElement('div');m.textContent=msg;m.style.cssText='position:fixed;top:20px;right:20px;background:#22c55e;color:white;padding:12px 16px;border-radius:6px;font-size:14px;z-index:10000;box-shadow:0 4px 12px rgba(0,0,0,.15);animation:slideIn .3s ease';document.body.appendChild(m);setTimeout(()=>{m.style.animation='slideOut .3s ease forwards';setTimeout(()=>m.remove(),300)},2000)}const s=document.createElement('style');s.textContent='@keyframes slideIn{from{transform:translateX(400px);opacity:0}to{transform:translateX(0);opacity:1}}@keyframes slideOut{from{transform:translateX(0);opacity:1}to{transform:translateX(400px);opacity:0}}';document.head.appendChild(s);</script>
+</body>
+</html>
